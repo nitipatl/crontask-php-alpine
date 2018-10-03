@@ -1,0 +1,7 @@
+version: '3'
+services:
+    cron-php:
+        build: .
+        command: crond -f
+        volumes:
+            - ./src/log.txt:/app/log.txt
