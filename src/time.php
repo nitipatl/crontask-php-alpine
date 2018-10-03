@@ -1,2 +1,2 @@
 <?php
-echo time();
+echo time()."\n";
